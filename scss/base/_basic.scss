@@ -1,3 +1,5 @@
+/*================== BASIC SETUP ===================== */
+
 *,
 *:before,
 *:after {
@@ -50,10 +52,45 @@ h3 {
 
 
 
+/*================== ANIMATION ===================== */
+
+.reveal-up{
+  // position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1.5s all ease;
+}
+.reveal-up.active{
+  transform: translateY(0);
+  opacity: 1;
+}
 
 
-/* form elements */
+.reveal-left{
+  // position: relative;
+  transform: translateX(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal-left.active{
+  transform: translateX(0);
+  opacity: 1;
+}
 
+.reveal-right{
+  // position: relative;
+  transform: translateX(-150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal-right.active{
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+
+/*================== FORM ELEMENTS ===================== */
 * {
   outline: none !important;
 }
@@ -86,8 +123,8 @@ a {
 
 
 
-/* helper classes */
 
+/*================== TEXT ===================== */
 
 .line-height-1{
   line-height: 1;
@@ -149,7 +186,7 @@ a {
 }
 
 
-
+/* TEXT COLOR*/
 
 .text-white {
   color: $white;
@@ -176,9 +213,19 @@ a {
   color: $darkpink;
 }
 
+.text-hover-white {
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $white;
+  }
+}
 
 
 
+
+/* TEXT FONT WEIGHT AND SIZE*/
 .fw-400 {
   font-weight: 400;
 }
@@ -205,6 +252,11 @@ a {
   font-size: 14px;
 }
 
+.fs-15 {
+  font-size: 15px;
+}
+
+
 .fs-16 {
   font-size: 16px;
 }
@@ -228,6 +280,11 @@ a {
 .fs-40 {
   font-size: 40px;
 }
+
+.fs-80 {
+  font-size: 80px;
+}
+
 
 @media (min-width: 992px) {
   .fs-lg-50{
@@ -262,6 +319,20 @@ a {
   width: 80%;
 }
 
+.width-70{
+  width: 70%;
+}
+
+
+.width-sm-90{
+  width: 90%;
+  @media (min-width: 992px) {
+    &{
+      width: 100%;
+    }
+  }
+  
+}
 
 .width-auto{
   width: auto!important;
@@ -319,6 +390,10 @@ a {
   padding-bottom: 4rem !important;
 }
 
+.negative-margin-left-2{
+  margin-left: -2px;
+}
+
 
 
 
@@ -344,7 +419,13 @@ a {
 }
 
 .height-50{
-  height: 50px;
+  min-height: 50px;
+}
+
+@media (min-width: 992px) {
+  .height-50{
+    height: 50px;
+  }
 }
 
 .img-cover {

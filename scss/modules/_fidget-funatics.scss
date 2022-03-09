@@ -2,32 +2,40 @@
 
 /* ==================== HOMEPAGE ==================== */
 
+// .homepage-banner{
+//     top: 0;
+//     right: 0;
+//     max-width: 540px;
+// }
+
 .meet-the-founder{
     &__image{
         max-width: 480px;
         max-height: 437px;
     }
-    @media (min-width: 576px) {
-
-    }
-    
-    @media (min-width: 768px) {
-    
-    }
-    
-    @media (min-width: 992px) {
-    
-    }
-    
-    @media (min-width: 1200px) {
-    
-    }
-    
-    @media (min-width: 1400px) {
-
-    }
 }
 
 
+.shop-now-container{
+    // bottom: 14vh;
+    // right: 15vw;
+    bottom: 0;
+    right: 0;
+}
+
+.shop-now-btn{
+    display: block;
+    height: 10vh;
+    width: 35vw;
+}
+
+@media (min-width:992px) {
+    .shop-now-btn{
+        display: block;
+        height: 25vh;
+        width: 30vw;
+    }
+    
+}
 
 /* ==================== CONTACT ==================== */
