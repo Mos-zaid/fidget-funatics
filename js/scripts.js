@@ -1,3 +1,19 @@
+/*================== STICKY HEADER ===================== */
+// window.onscroll = function() {myFunction()};
+
+// var header = document.querySelector(".header__sticky");
+// var mainContainer = document.querySelector("main");
+// var sticky = header.offsetTop;
+
+// function myFunction() {
+//   if (window.pageYOffset > sticky) {
+//     header.classList.add("sticky");
+//   } else {
+//     header.classList.remove("sticky");
+//   }
+// }
+
+
 /*================== MOBILE MENU ===================== */
 // 1 ELEMENT
 let hamburgerIcon = document.querySelector(".hamburger-script")

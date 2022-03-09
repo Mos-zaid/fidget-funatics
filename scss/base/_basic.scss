@@ -323,6 +323,16 @@ a {
   width: 70%;
 }
 
+// .sticky {
+//   position: fixed;
+//   z-index: 200;
+//   top: 0;
+//   width: 100%;
+// }
+
+// .sticky + main {
+//   padding-top: 50000px;
+// }
 
 .width-sm-90{
   width: 90%;
@@ -345,6 +355,10 @@ a {
 
 .max-width-1100{
   max-width: 1100px;
+}
+
+.max-width-1150{
+  max-width: 1160px;
 }
 
 .max-width-1200{
@@ -390,8 +404,8 @@ a {
   padding-bottom: 4rem !important;
 }
 
-.negative-margin-left-2{
-  margin-left: -2px;
+.negative-margin-left-8{
+  margin-left: -8px;
 }
 
 
@@ -461,8 +475,8 @@ a {
 }
 
 .btn:hover{
-  background-color: $lightpink;
-  border: 1px $lightpink solid;
+  background-color: $blue;
+  border: 1px $blue solid;
   color: $white;
 }
 

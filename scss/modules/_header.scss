@@ -18,6 +18,14 @@
         }
     }
 
+    &__icons-small img{
+        width: 20px;    
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+
     &__mobile-menu{
         width: 40px;
         &:hover{

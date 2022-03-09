@@ -53,8 +53,8 @@
 
                     <!-- The phone Number -->
                     <div class="p-absolute header__phone d-none d-lg-block d-lg-flex align-items-lg-center">
-                        <div class="header__icons">
-                            <img src="./images/icons/Phone_icon.png" alt="Phone Icon">
+                        <div class="header__icons-small">
+                            <a href="tel:516-286-1787"><img src="./images/icons/Phone_icon.png" alt=""></a>
                         </div>
                         <div>
                             <p><a href="tel:516-286-1787" class="fw-600" title="Call Fidget FUNatic">516.286.1787</a></p>
@@ -112,7 +112,12 @@
         <!-- Banner -->
         <section class="banner mb-2">
             <div class="p-relative">
-                <img class="width-100" src="./images/Main_slider_fidget_funatics.jpg" alt="Fidget Funatics Banner">    
+                <picture>
+                    <source media="(max-width: 767px)" srcset="./images/Portrait_image_small.jpg" type="image/png">
+                    <source media="(min-width: 768px)" srcset="./images/Main_slider_fidget_funatics.jpg" type="image/png">
+                    <img class="width-100" src="./images/Main_slider_fidget_funatics.jpg" alt="Fidget Funatics Banner">    
+                </picture>
+
                 <div class="p-absolute shop-now-container">
                     <a href="#" class="shop-now-btn py-5 px-5"></a>
                 </div>
@@ -209,7 +214,7 @@
                         <h5 class="fs-18 mt-5 mb-1 my-lg-0 reveal-up">Keep in Touch</h5>
                         <p class="mt-2 reveal-up">Sign up for our newsletter and be the first to know about coupons and special</p>
                         <input type="text" class="py-1 px-1 border-white fs-14" placeholder="Your Email" >
-                        <a href="#" class="btn btn--dark-pink py-1 negative-margin-left-2 fs-14">Subscribe</a>
+                        <a href="#" class="btn btn--dark-pink py-1 negative-margin-left-8 fs-14">Subscribe</a>
                         <p class="text-dark-pink fs-24 my-3">
                             <img class="footer__icons-smaller" src="./images/icons/Phone_icon.png" alt="">
                              <a href="tel:516-286-1787"> 516.286.1787 </a>
@@ -224,7 +229,7 @@
 
             </div>
 
-            <p class="text-center mt-lg-5 pt-lg-2 pb-lg-4">Website designed & developed by <a href="#" class="text-gray">FraSca Design Group</a></p>
+            <p class="text-center mt-lg-5 pt-lg-2 pb-lg-4 fs-14">Website designed & developed by <a href="#" class="text-gray">FraSca Design Group</a></p>
         </div>
 
 
