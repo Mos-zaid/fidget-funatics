@@ -348,6 +348,10 @@ a {
   width: auto!important;
 }
 
+.width-255{
+  width: 255px;
+}
+
 .max-width-295{
   max-width: 295px;
 }
@@ -408,7 +412,15 @@ a {
   margin-left: -8px;
 }
 
+@media (min-width: 992px) {
+  .mt-lg-2-half{
+    margin-top: 11px;
+  }
+}
 
+.z-index-20{
+  z-index: 20;
+}
 
 
 

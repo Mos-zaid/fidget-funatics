@@ -1,3 +1,23 @@
+.dropbtn {
+    color: $white;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  }
+  
+  .dropdown-content a {
+    display: block;
+  }
+    
+  .dropdown:hover .dropdown-content {display: block;}
+  
 .header{
 
 
@@ -42,30 +62,13 @@
         list-style: none;
     }
 
-    &__nav-sub-content{
-        top: 11px;
-        display: none;
-
-    }
-
-    &__nav-sub-btn:hover &__nav-sub-content {
+    &__dropdown:hover &__nav-sub-content{
         display: block;
-      }
-
-    &__nav-sub-content li {
-        list-style: none;
-        top: 100px;
     }
 
-    &__nav-sub-btn:hover{
-        margin-left: 105px;
-        padding-right: -150px;
-    }
-
-    // &__nav-sub-btn{
-    //     max-width: 140px;
+    // &__nav-sub-menu-btn:hover &__nav-sub-content{
+    //     display: block;
     // }
-
 
 
 
