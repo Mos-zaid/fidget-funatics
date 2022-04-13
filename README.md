@@ -1,8 +1,10 @@
 # fidget-funatics
 
-
-![Design preview for Fidget Funatics](https://user-images.githubusercontent.com/56215582/163210451-f13f7637-1595-44da-8e29-efe656c56f5c.png)
-
+<p align="center">
+  <img 
+    src="https://user-images.githubusercontent.com/56215582/163210451-f13f7637-1595-44da-8e29-efe656c56f5c.png"
+  >
+</p>
 
 ## Welcome! 👋
 
